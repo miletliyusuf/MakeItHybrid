@@ -28,7 +28,7 @@ public class MakeItHybrid:NSObject,UIWebViewDelegate {
 		
 		webView.loadRequest(requestObject)
 	}
-	
+	//webView delegate methods
 	public func webViewDidFinishLoad(webView: UIWebView) {
 		loadingView.hidden = true
 	}
