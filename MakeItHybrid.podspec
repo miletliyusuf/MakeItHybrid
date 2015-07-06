@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/miletliyusuf/MakeItHybrid"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "yusufm" => "miletliyusuf@gmail.com" }
-  s.source           = { :git => "https://github.com/miletliyusuf/MakeItHybrid.git", :tag => s.version.to_s }
+  s.author           = { "miletliyusuf" => "miletliyusuf@gmail.com" }
+  s.source           = { :git' => "https://github.com/miletliyusuf/MakeItHybrid.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/ysfmltli'
 
   s.platform     = :ios, '8.0'
