@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MakeItHybrid_Example', :exclusive => true do
+  pod "MakeItHybrid", :path => "../"
+end
+
+target 'MakeItHybrid_Tests', :exclusive => true do
+  pod "MakeItHybrid", :path => "../"
+
+  pod 'Quick', '~> 0.3.1'
+  pod 'Nimble'
+  pod 'FBSnapshotTestCase'
+  pod 'Nimble-Snapshots'
+end
