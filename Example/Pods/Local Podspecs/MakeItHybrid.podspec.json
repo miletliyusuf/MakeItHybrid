@@ -1,0 +1,25 @@
+{
+  "name": "MakeItHybrid",
+  "version": "0.1.0",
+  "summary": "A short description of MakeItHybrid.",
+  "description": "                       An optional longer description of MakeItHybrid\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/miletliyusuf/MakeItHybrid",
+  "license": "MIT",
+  "authors": {
+    "yusufm": "miletliyusuf@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/miletliyusuf/MakeItHybrid.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MakeItHybrid": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

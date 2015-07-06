@@ -1,0 +1,29 @@
+PODS:
+  - FBSnapshotTestCase (1.8.1)
+  - MakeItHybrid (0.1.0)
+  - Nimble (0.4.2)
+  - Nimble-Snapshots (0.4.0):
+    - FBSnapshotTestCase (~> 1.7)
+    - Nimble (~> 0.4)
+    - Quick (~> 0.3)
+  - Quick (0.3.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MakeItHybrid (from `../MakeItHybrid.podspec`)
+  - Nimble
+  - Nimble-Snapshots
+  - Quick (~> 0.3.1)
+
+EXTERNAL SOURCES:
+  MakeItHybrid:
+    :path: ../MakeItHybrid.podspec
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
+  MakeItHybrid: 22cd1ce87690e27d43ec291bf3fa7d9c39d22faa
+  Nimble: 49b7a7da8919f42823d37c6d68cc6d15a7009f32
+  Nimble-Snapshots: 216ae8c0ea3f4105be1606749fe15d8b2138af40
+  Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
+
+COCOAPODS: 0.37.2

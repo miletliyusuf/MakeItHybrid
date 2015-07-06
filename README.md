@@ -1,3 +1,24 @@
+# How To Get Start
+
+MakeItHybrid let you create your hybrid application very easily for iOS in Swift language. If you finished installation of pod file(see at below how to do), you should import the framework in the begining of your controller class like:
+
+```swift
+	import MakeItHybrid
+```
+Then, define the framework as your class variable
+```swift
+	var openUrl = MakeItHybrid()
+```
+and in your viewDidLoad() method you should tell the framework which view will show your web page as it is below
+```swift
+	openUrl.superView = self.view
+```
+finally add your url:
+```swift
+	openUrl.makeHybridWithUrlString("http://miletli.com")
+```
+In any kind of question or advices, please do not hesitate to ask or advice!
+
 # MakeItHybrid
 
 [![CI Status](http://img.shields.io/travis/yusufm/MakeItHybrid.svg?style=flat)](https://travis-ci.org/yusufm/MakeItHybrid)
@@ -22,7 +43,7 @@ pod "MakeItHybrid"
 
 ## Author
 
-yusufm, yusufm@tuttur.com
+Yusuf Miletli, miletliyusuf@gmail.com
 
 ## License
 

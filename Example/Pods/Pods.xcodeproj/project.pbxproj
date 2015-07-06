@@ -1,0 +1,2009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0153A3D04610E6CE932D982C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7F460D18D5ADF15BA2A22 /* XCTest.framework */; };
+		07F69EE3DDDCDCCD21B09821 /* Pods-MakeItHybrid_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B3BF0C3BF53DA0C6AD6569 /* Pods-MakeItHybrid_Example-dummy.m */; };
+		094D26702AFD9E8D9AD8B14B /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDFCA9B5FD3732F1002B51 /* BeNil.swift */; };
+		0A494CCB7284284845CF0DCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9BA51BCE657BF48319F37B /* Foundation.framework */; };
+		0B6E00364AE9459A69D878C2 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B2ECC92219299767D68B5 /* Expression.swift */; };
+		0BE69328ACAAF15031E99560 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D9120BC2B94558109E22D /* SourceLocation.swift */; };
+		0CF26C5B15F55AFD5ED37BE7 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = A80973536A3E697892044DF9 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D703F8E477AEC9F3BBC740A /* MakeItHybrid.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF76B0D488B898B5132A6EA1 /* MakeItHybrid.bundle */; };
+		187084D8351BF03B56F42028 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D703F001A9046B0390915BD /* AssertionRecorder.swift */; };
+		1BCF2C7A8DCC72CE0B65F405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9BA51BCE657BF48319F37B /* Foundation.framework */; };
+		1DBB3DF26EA6E595CAEB17AD /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44A8954A78FD0E206BBDB9C /* FBSnapshotTestController.m */; };
+		1DC148C369EA98D626E386BD /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F4B0EFA8E64A62C2D74BB2 /* AdapterProtocols.swift */; };
+		21B544F3D16D73CE75E1C798 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C55AD1734CB719E69FA363 /* BeIdenticalTo.swift */; };
+		21D5404E981888677D004F7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9BA51BCE657BF48319F37B /* Foundation.framework */; };
+		2265949A0A0704E3DCC6734B /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F1F5CCC43D72A108F80BA /* BeLessThan.swift */; };
+		22F27826F2765F331E1601DB /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C64496F64138C16A126CA07 /* BeGreaterThanOrEqualTo.swift */; };
+		2A174185F143C7D9D62ED74A /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0CC470A532E22FFC73C390 /* Example.swift */; };
+		2C8BA52F99D0A4DDDF12C6D0 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EABB10BA9DB56107CFAF0056 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CE8238AB12A7BECC00D34FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9BA51BCE657BF48319F37B /* Foundation.framework */; };
+		2D808D95530F8EF32ADA252E /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5314C7EF7F1C89A8A0E1B8E /* BeCloseTo.swift */; };
+		30896B7EAE38376466E8F41F /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2EE12511D4D932C7432BF5 /* MatcherProtocols.swift */; };
+		3383FCD414377A0AF1DA51AC /* Pods-MakeItHybrid_Tests-Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D836405AAF5823DA8B1051C8 /* Pods-MakeItHybrid_Tests-Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		368E89D204D19B5B2B564B24 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6FB40ED838DCACEA1AF05B /* FBSnapshotTestCase.m */; };
+		373B295DE5AE5539FC90D1C6 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6844FA4ECE115427812F9C /* EndWith.swift */; };
+		392C37BB2CA9AF7E100A0FFF /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6932346638954ACCA75CA74 /* DSL.swift */; };
+		3F1272B507807A57F4F875E2 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 76232146AD4FC9AC90E84272 /* UIImage+Compare.m */; };
+		3F66EB94AFE6386D0236C34D /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B17E69D492B3CABAF7B3C6 /* BeAKindOf.swift */; };
+		410A1677D68497786C80257F /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CC7EA2FE3B01AA93B2671 /* NimbleXCTestHandler.swift */; };
+		4168E90DFE044E2D8E8AF48F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318D99AA1850DCDEA778543C /* Nimble.framework */; };
+		49FADDA096713AEFFB19E2E4 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 712E084A37238F4306428690 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-dummy.m */; };
+		4B6AE9B95BE10BD5F6172551 /* Pods-MakeItHybrid_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D253C0C1BC45F1682ED470 /* Pods-MakeItHybrid_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C621AEF2567350FD9984A39 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = A540FDA4B684FE4DF897BBFA /* FBSnapshotTestCasePlatform.m */; };
+		4E3475BCC2300F5912BE1601 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F857724E5A0DD672B23EBEF3 /* Failure.swift */; };
+		4F7A5413DD1AF455E1AA1A51 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4D3DE2D877531AA2D5176 /* MatcherFunc.swift */; };
+		517DFF121458508A5728079B /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF54A9BE46F227DD655AE84 /* ExampleGroup.swift */; };
+		5263AEB7231CF5B3C8E6F2A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9BA51BCE657BF48319F37B /* Foundation.framework */; };
+		572C4B4D4ED43310C7562EA7 /* Pods-MakeItHybrid_Tests-Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E654B27DAFB1E183BCAFCA28 /* Pods-MakeItHybrid_Tests-Quick-dummy.m */; };
+		5EEE77227E0A099F48DD68B6 /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C16E8C6223D77837189BB4 /* AsyncMatcherWrapper.swift */; };
+		5F0EF55BF807052877B1778C /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBCA0F81D6B3EF29B98F5A /* DSL.m */; };
+		61EE470C505FDC943D71F5EA /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70A56164B0A982B31F6887A /* Quick.framework */; };
+		6300740A8BAA052E9504DA9E /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E8567EFE94044A5D8EF7D /* BeEmpty.swift */; };
+		65F59AA9BF3E76D6194654BD /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF19AC24CF0E1D264CBDB31 /* BeginWith.swift */; };
+		67A50C228A0F1651E52BCDCB /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F421DF5AC1BB0B349F8423 /* NSString+QCKSelectorName.m */; };
+		6A156686FF0D934CAB382D4C /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D53C1873CF56C56BC02713 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC49EB11E49966E76177965 /* NonNilMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4B08C4C69B33F6EC35F9EB /* NonNilMatcherWrapper.swift */; };
+		6FA0DAF6C447F8375C7B0E56 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EEF10BDC120468AE55D6A15 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		748D05D0EE605281AB86C7AB /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B4E0D384AF080BD6A9ED8 /* Expectation.swift */; };
+		74EE5A5A8D4B1869CA8C3AB4 /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 5807BAC90EB4798D23422DF1 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74F4E5205D646C7B2489F437 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0B8E586B16ADC5AE07EC64 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A1ED1A2C8C7391EEC7A35D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7F460D18D5ADF15BA2A22 /* XCTest.framework */; };
+		7AE13F2526B00C0E6A81D7DB /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD131099EF955649731B95 /* BeGreaterThan.swift */; };
+		7DFC6B817425CEBB1B3825E3 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6915D11E7609078820D75F /* QuickConfiguration.m */; };
+		81279D975F088223AAD2F52C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9BA51BCE657BF48319F37B /* Foundation.framework */; };
+		81878DC25246F252CBBDA5D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9BA51BCE657BF48319F37B /* Foundation.framework */; };
+		85005CEDC1FA428B5D148501 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448177643538A918B0614FD /* RaisesException.swift */; };
+		87470593CC1D6FE9C1FC1403 /* Pods-MakeItHybrid_Tests-Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FAD31C5DC0BF2AD214F133 /* Pods-MakeItHybrid_Tests-Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		883C1C0DFE67E880B59A2AB3 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 91ABB259820AF6335F12C909 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BEDC5B458F1559A24AECB5A /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77C572ABFBB1AF3C493EFE /* Poll.swift */; };
+		8F0ED39B01F7933C787531C3 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56FA7E1A619298561B30F91 /* Match.swift */; };
+		8F23BC4302495407984A8327 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 97539A41E7BDDC95C3CE8E3B /* QCKDSL.m */; };
+		964174ADAE8F9AB6CB51A500 /* Pods-MakeItHybrid_Example-MakeItHybrid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 537653CF2EF5DB6D285228BA /* Pods-MakeItHybrid_Example-MakeItHybrid-dummy.m */; };
+		990E2AD2148147BBC4D3BB99 /* HaveValidSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC6A2B8322E961D44E95396 /* HaveValidSnapshot.swift */; };
+		99B26508F70C27570088A070 /* BasicMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8CE300A304E9CBFEBB76C /* BasicMatcherWrapper.swift */; };
+		9D35F6E125F08E3EB0F05D79 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368D8293DF2495B080BFAC7 /* ExampleMetadata.swift */; };
+		9E1C9BB25E843E798AF07C9C /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96572312D3D5DE08EE99D0E9 /* Closures.swift */; };
+		A0679FC6ADC93AEBB8DE2281 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC2ED1BDB86A22FAA05DC78 /* DSL.swift */; };
+		A3545B65CB83659E8711771A /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 914C6B6BFE512335180C2E61 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6A0CD3EF218F2C6F926D65D /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0037458C165D171CA9E79C77 /* Contain.swift */; };
+		ADBE913B685F3FB2660678B8 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4559B96BBB286118587259 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B102C6BB66F337242C4861C0 /* PrettySyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB4A8F3A857E565E3C2142 /* PrettySyntax.swift */; };
+		B1A150B9056678D38ABFFE30 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = CB383EF512C8850226959AA5 /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2349116ACFD53BA7C390D51 /* MakeItHybrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2C8485BB69AFB780B74C5 /* MakeItHybrid.swift */; };
+		B399BAF606702E8C36A47ABC /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = BC367EBBB423F6745D977AAE /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4276AFBC8C44090130F86B4 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2F817A1165526DDF83AE9 /* BeAnInstanceOf.swift */; };
+		B49A549E39EA625147E244EE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EAA0893141E97CE21DD959 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4CD398B22F458703E0D6C23 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F517749A0BB1B4EC03CE24 /* AllPass.swift */; };
+		B57BB92B6DF102F2845108D6 /* Pods-MakeItHybrid_Example-MakeItHybrid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D91478170ACA9C0143F69FBE /* Pods-MakeItHybrid_Example-MakeItHybrid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9A1ECFEED4E083BCA4E3FF1 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 931762FAF60F6E0CBC892126 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-dummy.m */; };
+		BB89C15F94CF3266D0BD023E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7F460D18D5ADF15BA2A22 /* XCTest.framework */; };
+		BD45943004EE6B6E08E6D57E /* Pods-MakeItHybrid_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC1D66D7E9531BD674B40C /* Pods-MakeItHybrid_Tests-dummy.m */; };
+		BD572B600FE5FE1BE99EF012 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDAE10BA64BE9EDF7C0832 /* Equal.swift */; };
+		C086CF8E2421C9C7996A85F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9BA51BCE657BF48319F37B /* Foundation.framework */; };
+		C18370242B424276B516A176 /* Pods-MakeItHybrid_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 385AC1DFB5FE7D0CA69EEDF1 /* Pods-MakeItHybrid_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C254C874813838674434C141 /* FullMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602764C5BB4782C997C65A55 /* FullMatcherWrapper.swift */; };
+		C28B33238A55E099F9A79BB8 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CE5F1A310D83292AC885B /* BeLogical.swift */; };
+		C2CDCAB229A739FF6B28EBDC /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E18A8E96350CC4C28E58D4 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C31FE3F6DB6113DAB11FDF5A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C28D8BCA279BAE18E302136 /* UIImage+Diff.m */; };
+		C48957503500E79B89650CBE /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC077B76B4A80FD9DE3BB4C /* NMBExceptionCapture.m */; };
+		C590D8769C2DF86F95171B35 /* NSString+QCKSelectorName.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EEC855B4566289BA0AA5F1 /* NSString+QCKSelectorName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5EB2184995508FF2F76B230 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7F460D18D5ADF15BA2A22 /* XCTest.framework */; };
+		C7EB7704C6DA7964A3710C5F /* MakeItHybrid.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 042B9D596F47BB72C47F788C /* MakeItHybrid.bundle */; };
+		C9D8362BED47B18948E0149C /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969C4994E95BA274FBEE635 /* Stringers.swift */; };
+		CAEDC1FDDA46F9DD24F134F1 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7520BA0B7DD2AD0267D4C22 /* World+DSL.swift */; };
+		D1CA82C0DEE52AA2FBD1FFEC /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4661988DF70B140209A05C /* Functional.swift */; };
+		D2D1E32DB0A2124227B7C48A /* Pods-MakeItHybrid_Tests-MakeItHybrid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA81CA9614ED7D3566AD0B3 /* Pods-MakeItHybrid_Tests-MakeItHybrid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4A43F67353F8184B85F057E /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842E057B3F65E34C1A067B0 /* World.swift */; };
+		DA70E8907CFF520B38A1C195 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03B9489C6859296A328DFC /* Callsite.swift */; };
+		DB17CBFB24DE0260C22515A1 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3D3D039E60CD18C7DE043 /* FBSnapshotTestCase.framework */; };
+		DBB4F17DDE5AA0A492A7ADEA /* Pods-MakeItHybrid_Tests-Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 398EC781E578044D956A5FB0 /* Pods-MakeItHybrid_Tests-Nimble-dummy.m */; };
+		DE771DE29C6E67AD7214B075 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D86B75E38FD99010264788 /* FailureMessage.swift */; };
+		DF3E71DC5B7D228BAA88C5A5 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB519CFB658016662BB8B0 /* SuiteHooks.swift */; };
+		DFE7D4ADB6360E7C7CE1F6B5 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 681D9AA02520713D30E586BF /* QuickSpec.m */; };
+		E1DF296F635F5389F69BC348 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247370ADD3D6E06617A7AED2 /* Filter.swift */; };
+		F2834C7E04939F03B7AE95F4 /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E11FAB72C262D8F25A070 /* BeLessThanOrEqual.swift */; };
+		F33486E428D59DDF74BA310A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177F568C565690B929A6D88 /* Configuration.swift */; };
+		F7C66B8B10C753B7FC108937 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10C2D07E09299AEC619C88 /* ExampleHooks.swift */; };
+		F8810D674EE341660A6600D3 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BA3F4AD354F6CA09A769C9 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F923FF14BD5C6BAC0A74ACFE /* ObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E58512A2C78A30D169CA /* ObjCMatcher.swift */; };
+		FAE70A1F0B6882241C698A6E /* Pods-MakeItHybrid_Tests-MakeItHybrid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DD7230562F3D5F44282B98 /* Pods-MakeItHybrid_Tests-MakeItHybrid-dummy.m */; };
+		FD1A81BAA866EF941517B004 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A9E2320EF9353ECFDEDD0 /* DSL+Wait.swift */; };
+		FEFEFB39B275200C35E9A695 /* MakeItHybrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2C8485BB69AFB780B74C5 /* MakeItHybrid.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1260993B771C8B4FB342C02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967D5A64EE0021C475FA266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0E18EB2FA44070EBE2430E0;
+			remoteInfo = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase";
+		};
+		26892FC593D54DB88DA6B9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967D5A64EE0021C475FA266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E16FBC92738FA7D034A585;
+			remoteInfo = "Pods-MakeItHybrid_Example-MakeItHybrid-MakeItHybrid";
+		};
+		543397DA0FA8C77B69F03290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967D5A64EE0021C475FA266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E934F1DFB6DD17BBFF6F931;
+			remoteInfo = "Pods-MakeItHybrid_Tests-Nimble";
+		};
+		62B8AC56935BA05781C317E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967D5A64EE0021C475FA266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E934F1DFB6DD17BBFF6F931;
+			remoteInfo = "Pods-MakeItHybrid_Tests-Nimble";
+		};
+		82B083D11613BD0013D7BA9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967D5A64EE0021C475FA266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADBCECBE900A3711B0CD8D3;
+			remoteInfo = "Pods-MakeItHybrid_Tests-Quick";
+		};
+		A0350841EF2FDC296071D85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967D5A64EE0021C475FA266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0E18EB2FA44070EBE2430E0;
+			remoteInfo = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase";
+		};
+		B2AC64B8DF07FDC560C7FC08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967D5A64EE0021C475FA266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82757B93193F2CDB30260626;
+			remoteInfo = "Pods-MakeItHybrid_Example-MakeItHybrid";
+		};
+		D6B1CA530702E58961B15753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967D5A64EE0021C475FA266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FD803A121098EE965D12AC;
+			remoteInfo = "Pods-MakeItHybrid_Tests-MakeItHybrid-MakeItHybrid";
+		};
+		DD5EACC940423F4F24B43B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967D5A64EE0021C475FA266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2432472C57CBC8C2CFEDAD27;
+			remoteInfo = "Pods-MakeItHybrid_Tests-Nimble-Snapshots";
+		};
+		E7122720C2AAAD38C95D306A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967D5A64EE0021C475FA266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADBCECBE900A3711B0CD8D3;
+			remoteInfo = "Pods-MakeItHybrid_Tests-Quick";
+		};
+		EF6821D958FA596DF016D79A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967D5A64EE0021C475FA266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9308555887B8C1CA7550A176;
+			remoteInfo = "Pods-MakeItHybrid_Tests-MakeItHybrid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0037458C165D171CA9E79C77 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
+		042B9D596F47BB72C47F788C /* MakeItHybrid.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeItHybrid.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0448177643538A918B0614FD /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
+		04BBCA0F81D6B3EF29B98F5A /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Nimble/objc/DSL.m; sourceTree = "<group>"; };
+		04E3D3D039E60CD18C7DE043 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F421DF5AC1BB0B349F8423 /* NSString+QCKSelectorName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QCKSelectorName.m"; path = "Quick/NSString+QCKSelectorName.m"; sourceTree = "<group>"; };
+		09DD7230562F3D5F44282B98 /* Pods-MakeItHybrid_Tests-MakeItHybrid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-MakeItHybrid_Tests-MakeItHybrid-dummy.m"; path = "../Pods-MakeItHybrid_Tests-MakeItHybrid/Pods-MakeItHybrid_Tests-MakeItHybrid-dummy.m"; sourceTree = "<group>"; };
+		0AF54A9BE46F227DD655AE84 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Quick/ExampleGroup.swift; sourceTree = "<group>"; };
+		0BFD4E6D0C141DA5979AA70A /* Pods-MakeItHybrid_Tests-Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Tests-Quick.xcconfig"; sourceTree = "<group>"; };
+		0C3CE5F1A310D83292AC885B /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
+		0D77C572ABFBB1AF3C493EFE /* Poll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poll.swift; path = Nimble/Utils/Poll.swift; sourceTree = "<group>"; };
+		0DA5B3F6E7F3333A44B83419 /* Pods_MakeItHybrid_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeItHybrid_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E187AE666D204C0029E77C5 /* Pods-MakeItHybrid_Tests-Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Tests-Nimble-prefix.pch"; sourceTree = "<group>"; };
+		0E3D84C2537A15BE094E4C70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6915D11E7609078820D75F /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Quick/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
+		10B13EC8BC44C22036A3EE61 /* MakeItHybrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MakeItHybrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FBA4E1D4F3A4C547D8C363 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Tests-Nimble-Snapshots-Private.xcconfig"; sourceTree = "<group>"; };
+		180B4E0D384AF080BD6A9ED8 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Nimble/Expectation.swift; sourceTree = "<group>"; };
+		1842E057B3F65E34C1A067B0 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Quick/World.swift; sourceTree = "<group>"; };
+		1C28D8BCA279BAE18E302136 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/UIImage+Diff.m"; sourceTree = "<group>"; };
+		1CE6EF513683B3CB28E6059D /* Pods-MakeItHybrid_Example-MakeItHybrid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MakeItHybrid_Example-MakeItHybrid.modulemap"; sourceTree = "<group>"; };
+		20AB4A8F3A857E565E3C2142 /* PrettySyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrettySyntax.swift; sourceTree = "<group>"; };
+		247370ADD3D6E06617A7AED2 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Quick/Filter.swift; sourceTree = "<group>"; };
+		2BBD131099EF955649731B95 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
+		2C9F1F5CCC43D72A108F80BA /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
+		2EEF10BDC120468AE55D6A15 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Quick/Quick.h; sourceTree = "<group>"; };
+		2FA81CA9614ED7D3566AD0B3 /* Pods-MakeItHybrid_Tests-MakeItHybrid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-MakeItHybrid_Tests-MakeItHybrid-umbrella.h"; path = "../Pods-MakeItHybrid_Tests-MakeItHybrid/Pods-MakeItHybrid_Tests-MakeItHybrid-umbrella.h"; sourceTree = "<group>"; };
+		314A57E77AB64173F8C2086A /* Pods-MakeItHybrid_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MakeItHybrid_Example.modulemap"; sourceTree = "<group>"; };
+		318D99AA1850DCDEA778543C /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D53C1873CF56C56BC02713 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		326E8567EFE94044A5D8EF7D /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
+		335EA4167FC83B5D0DABA324 /* Pods-MakeItHybrid_Tests-Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Tests-Nimble.xcconfig"; sourceTree = "<group>"; };
+		33626D15F217D118E603A5E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3637CB0C776FB94BE6D418FE /* Pods_MakeItHybrid_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeItHybrid_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		385AC1DFB5FE7D0CA69EEDF1 /* Pods-MakeItHybrid_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Tests-umbrella.h"; sourceTree = "<group>"; };
+		398EC781E578044D956A5FB0 /* Pods-MakeItHybrid_Tests-Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakeItHybrid_Tests-Nimble-dummy.m"; sourceTree = "<group>"; };
+		3B20D1368606ED729F60CC0E /* Pods-MakeItHybrid_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3C4661988DF70B140209A05C /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
+		3CA2F817A1165526DDF83AE9 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
+		3CC6A2B8322E961D44E95396 /* HaveValidSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HaveValidSnapshot.swift; sourceTree = "<group>"; };
+		3E13586E53E9E4A1ECAB5790 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0B8E586B16ADC5AE07EC64 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		3FEC1D66D7E9531BD674B40C /* Pods-MakeItHybrid_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakeItHybrid_Tests-dummy.m"; sourceTree = "<group>"; };
+		42CC48CA0EB5EEDFEE0A316E /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		42ECEFA78F9EEC65C2F4A788 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase.modulemap"; sourceTree = "<group>"; };
+		45EEC855B4566289BA0AA5F1 /* NSString+QCKSelectorName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QCKSelectorName.h"; path = "Quick/NSString+QCKSelectorName.h"; sourceTree = "<group>"; };
+		499B2ECC92219299767D68B5 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Nimble/Expression.swift; sourceTree = "<group>"; };
+		4E05B20224D740873525909E /* Pods-MakeItHybrid_Tests-Quick-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Tests-Quick-Private.xcconfig"; sourceTree = "<group>"; };
+		50C55AD1734CB719E69FA363 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
+		537653CF2EF5DB6D285228BA /* Pods-MakeItHybrid_Example-MakeItHybrid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakeItHybrid_Example-MakeItHybrid-dummy.m"; sourceTree = "<group>"; };
+		541D83E3A29E7E679202E607 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559DF3A5B831A1C1B86B2EBE /* Pods-MakeItHybrid_Tests-MakeItHybrid-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeItHybrid_Tests-MakeItHybrid-Private.xcconfig"; path = "../Pods-MakeItHybrid_Tests-MakeItHybrid/Pods-MakeItHybrid_Tests-MakeItHybrid-Private.xcconfig"; sourceTree = "<group>"; };
+		55F517749A0BB1B4EC03CE24 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
+		5807BAC90EB4798D23422DF1 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Quick/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
+		59538DF2092B441F78EE6325 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AEFA517FED347312D80F41A /* Pods-MakeItHybrid_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Tests-environment.h"; sourceTree = "<group>"; };
+		5DC2ED1BDB86A22FAA05DC78 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Quick/DSL/DSL.swift; sourceTree = "<group>"; };
+		602764C5BB4782C997C65A55 /* FullMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FullMatcherWrapper.swift; path = Nimble/Wrappers/FullMatcherWrapper.swift; sourceTree = "<group>"; };
+		61DC7065B8F39132E5C7B7EF /* Pods-MakeItHybrid_Tests-Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MakeItHybrid_Tests-Nimble.modulemap"; sourceTree = "<group>"; };
+		6368D8293DF2495B080BFAC7 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
+		655E11FAB72C262D8F25A070 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
+		66A69D35B49677583716C9AE /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase.xcconfig"; sourceTree = "<group>"; };
+		681D9AA02520713D30E586BF /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Quick/QuickSpec.m; sourceTree = "<group>"; };
+		6AC077B76B4A80FD9DE3BB4C /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Nimble/objc/NMBExceptionCapture.m; sourceTree = "<group>"; };
+		6D1CC7EA2FE3B01AA93B2671 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
+		712E084A37238F4306428690 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakeItHybrid_Tests-Nimble-Snapshots-dummy.m"; sourceTree = "<group>"; };
+		71CDAE10BA64BE9EDF7C0832 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
+		73FB519CFB658016662BB8B0 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
+		74A1C961ACD9573EAB82D6B2 /* Pods-MakeItHybrid_Tests-Nimble-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Tests-Nimble-Private.xcconfig"; sourceTree = "<group>"; };
+		76232146AD4FC9AC90E84272 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
+		7682CA731F8673FF39B41572 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7803E5C0A2077E1F466FC500 /* Pods-MakeItHybrid_Tests-Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Tests-Quick-prefix.pch"; sourceTree = "<group>"; };
+		790F23616D5C80136B56A8CD /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Tests-Nimble-Snapshots-prefix.pch"; sourceTree = "<group>"; };
+		79BC26C90CA56BC28D994811 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		7F0CC470A532E22FFC73C390 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Quick/Example.swift; sourceTree = "<group>"; };
+		7F15AE4A74E0F8791E38B441 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801A482522EFC24AC5611843 /* Pods-MakeItHybrid_Tests-MakeItHybrid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-MakeItHybrid_Tests-MakeItHybrid.modulemap"; path = "../Pods-MakeItHybrid_Tests-MakeItHybrid/Pods-MakeItHybrid_Tests-MakeItHybrid.modulemap"; sourceTree = "<group>"; };
+		85F84B31B7744F4CEF182878 /* Pods-MakeItHybrid_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakeItHybrid_Tests-resources.sh"; sourceTree = "<group>"; };
+		87F7F460D18D5ADF15BA2A22 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8A4559B96BBB286118587259 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Nimble/objc/NMBExceptionCapture.h; sourceTree = "<group>"; };
+		8A4743EFB522B90CB77A237F /* Pods-MakeItHybrid_Tests-Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MakeItHybrid_Tests-Quick.modulemap"; sourceTree = "<group>"; };
+		8A7D9335CF07C701E9A5BF86 /* Pods-MakeItHybrid_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MakeItHybrid_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BD4D3DE2D877531AA2D5176 /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Nimble/Wrappers/MatcherFunc.swift; sourceTree = "<group>"; };
+		8D703F001A9046B0390915BD /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
+		8F085531F0B39AFCFCE289BB /* Pods-MakeItHybrid_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Example.release.xcconfig"; sourceTree = "<group>"; };
+		914C6B6BFE512335180C2E61 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Quick/QuickSpec.h; sourceTree = "<group>"; };
+		91ABB259820AF6335F12C909 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/UIImage+Compare.h"; sourceTree = "<group>"; };
+		923DF1138C06454DF5018C05 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		931762FAF60F6E0CBC892126 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		96572312D3D5DE08EE99D0E9 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
+		97539A41E7BDDC95C3CE8E3B /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Quick/DSL/QCKDSL.m; sourceTree = "<group>"; };
+		976A9E2320EF9353ECFDEDD0 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
+		98EAA0893141E97CE21DD959 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		99588AFF67F400FF90F011A6 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Tests-Nimble-Snapshots.xcconfig"; sourceTree = "<group>"; };
+		9C64496F64138C16A126CA07 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
+		9CD8CE300A304E9CBFEBB76C /* BasicMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicMatcherWrapper.swift; path = Nimble/Wrappers/BasicMatcherWrapper.swift; sourceTree = "<group>"; };
+		9CF19AC24CF0E1D264CBDB31 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
+		9E0D4DCE1DCDC9E4AE8FA609 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0DD646F5077CA7E2D88FF3B /* Pods-MakeItHybrid_Tests-MakeItHybrid.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeItHybrid_Tests-MakeItHybrid.xcconfig"; path = "../Pods-MakeItHybrid_Tests-MakeItHybrid/Pods-MakeItHybrid_Tests-MakeItHybrid.xcconfig"; sourceTree = "<group>"; };
+		A540FDA4B684FE4DF897BBFA /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		A5B7D2AE3D0C7FF27D6E4FFF /* Pods-MakeItHybrid_Example-MakeItHybrid-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Example-MakeItHybrid-Private.xcconfig"; sourceTree = "<group>"; };
+		A5D86B75E38FD99010264788 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Nimble/FailureMessage.swift; sourceTree = "<group>"; };
+		A70A56164B0A982B31F6887A /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EBB387E7B711CD4261B3F1 /* MakeItHybrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MakeItHybrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80973536A3E697892044DF9 /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Quick/DSL/QCKDSL.h; sourceTree = "<group>"; };
+		AC6FB40ED838DCACEA1AF05B /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		AF9BA51BCE657BF48319F37B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B1F4B0EFA8E64A62C2D74BB2 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
+		B2FAD31C5DC0BF2AD214F133 /* Pods-MakeItHybrid_Tests-Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Tests-Nimble-umbrella.h"; sourceTree = "<group>"; };
+		B44A8954A78FD0E206BBDB9C /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		B5C16E8C6223D77837189BB4 /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Nimble/Wrappers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
+		BA19A75E5D0EDE162C2AB282 /* Pods-MakeItHybrid_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB3AC9FF5BCB54BBFD56C342 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC367EBBB423F6745D977AAE /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
+		BDABBC8CD7D8B228535E632A /* Pods-MakeItHybrid_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakeItHybrid_Example-resources.sh"; sourceTree = "<group>"; };
+		BF20C86F4FFC088355364BBA /* Pods-MakeItHybrid_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MakeItHybrid_Tests.modulemap"; sourceTree = "<group>"; };
+		BFB6C3890DC6F22B4D2994D6 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C168D19F28AC0273DA11E3E2 /* Pods-MakeItHybrid_Example-MakeItHybrid.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Example-MakeItHybrid.xcconfig"; sourceTree = "<group>"; };
+		C177F568C565690B929A6D88 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
+		C530F4C98A376E882257337E /* Pods-MakeItHybrid_Tests-Nimble-Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MakeItHybrid_Tests-Nimble-Snapshots.modulemap"; sourceTree = "<group>"; };
+		C5314C7EF7F1C89A8A0E1B8E /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
+		C6932346638954ACCA75CA74 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Nimble/DSL.swift; sourceTree = "<group>"; };
+		C7520BA0B7DD2AD0267D4C22 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
+		C7FDFCA9B5FD3732F1002B51 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
+		CB383EF512C8850226959AA5 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Nimble/Nimble.h; sourceTree = "<group>"; };
+		CEEC6ED04C82CDF636949060 /* Pods-MakeItHybrid_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MakeItHybrid_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0BCA5490102A67A19337716 /* Pods-MakeItHybrid_Tests-MakeItHybrid-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-MakeItHybrid_Tests-MakeItHybrid-prefix.pch"; path = "../Pods-MakeItHybrid_Tests-MakeItHybrid/Pods-MakeItHybrid_Tests-MakeItHybrid-prefix.pch"; sourceTree = "<group>"; };
+		D0E18A8E96350CC4C28E58D4 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Nimble/objc/DSL.h; sourceTree = "<group>"; };
+		D54D55293B70E4A9B00D5A1C /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BA3F4AD354F6CA09A769C9 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		D5F7C0B527519EB17BD5CBDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-MakeItHybrid_Tests-MakeItHybrid/Info.plist"; sourceTree = "<group>"; };
+		D836405AAF5823DA8B1051C8 /* Pods-MakeItHybrid_Tests-Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Tests-Quick-umbrella.h"; sourceTree = "<group>"; };
+		D8D2F36A25B7F0A784D37E75 /* Pods-MakeItHybrid_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MakeItHybrid_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D91478170ACA9C0143F69FBE /* Pods-MakeItHybrid_Example-MakeItHybrid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Example-MakeItHybrid-umbrella.h"; sourceTree = "<group>"; };
+		D969C4994E95BA274FBEE635 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
+		D9D253C0C1BC45F1682ED470 /* Pods-MakeItHybrid_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Example-umbrella.h"; sourceTree = "<group>"; };
+		DA7E0AF0B005D8167B753B8B /* Pods-MakeItHybrid_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakeItHybrid_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DEB6E58512A2C78A30D169CA /* ObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCMatcher.swift; path = Nimble/Wrappers/ObjCMatcher.swift; sourceTree = "<group>"; };
+		DEC2C8485BB69AFB780B74C5 /* MakeItHybrid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MakeItHybrid.swift; sourceTree = "<group>"; };
+		E15AFE922465096DE8D08A71 /* Pods-MakeItHybrid_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakeItHybrid_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E3AD58F808B1486285484D4C /* Pods-MakeItHybrid_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MakeItHybrid_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E56FA7E1A619298561B30F91 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
+		E5B17E69D492B3CABAF7B3C6 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
+		E654B27DAFB1E183BCAFCA28 /* Pods-MakeItHybrid_Tests-Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakeItHybrid_Tests-Quick-dummy.m"; sourceTree = "<group>"; };
+		E77FD4128BEE15308778E51A /* Pods-MakeItHybrid_Example-MakeItHybrid-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Example-MakeItHybrid-prefix.pch"; sourceTree = "<group>"; };
+		EABB10BA9DB56107CFAF0056 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Tests-Nimble-Snapshots-umbrella.h"; sourceTree = "<group>"; };
+		EC6844FA4ECE115427812F9C /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
+		EC9A751806F87E90DE778A3B /* Pods-MakeItHybrid_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItHybrid_Example-environment.h"; sourceTree = "<group>"; };
+		EE10C2D07E09299AEC619C88 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
+		F4B3BF0C3BF53DA0C6AD6569 /* Pods-MakeItHybrid_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakeItHybrid_Example-dummy.m"; sourceTree = "<group>"; };
+		F857724E5A0DD672B23EBEF3 /* Failure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Failure.swift; path = Quick/Failure.swift; sourceTree = "<group>"; };
+		FA4D9120BC2B94558109E22D /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
+		FD03B9489C6859296A328DFC /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Quick/Callsite.swift; sourceTree = "<group>"; };
+		FD4B08C4C69B33F6EC35F9EB /* NonNilMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NonNilMatcherWrapper.swift; path = Nimble/Wrappers/NonNilMatcherWrapper.swift; sourceTree = "<group>"; };
+		FF1BCA8ACC71BE07AD249794 /* Pods-MakeItHybrid_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItHybrid_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2EE12511D4D932C7432BF5 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
+		FF76B0D488B898B5132A6EA1 /* MakeItHybrid.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeItHybrid.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C1F0290C172ACEF665816B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A70717ECA634FED9284BC1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FACC92620C94C4B10FD8481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE8238AB12A7BECC00D34FB /* Foundation.framework in Frameworks */,
+				0153A3D04610E6CE932D982C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C7420F8305BEF031180CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCF2C7A8DCC72CE0B65F405 /* Foundation.framework in Frameworks */,
+				C5EB2184995508FF2F76B230 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECC38F16A946056A947966E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D5404E981888677D004F7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACAB8A240772799D8A6C148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB17CBFB24DE0260C22515A1 /* FBSnapshotTestCase.framework in Frameworks */,
+				81878DC25246F252CBBDA5D6 /* Foundation.framework in Frameworks */,
+				4168E90DFE044E2D8E8AF48F /* Nimble.framework in Frameworks */,
+				61EE470C505FDC943D71F5EA /* Quick.framework in Frameworks */,
+				76A1ED1A2C8C7391EEC7A35D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDCB4C479A78437EC6D4AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A494CCB7284284845CF0DCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E2DAC915BF6A4FCC8C40E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5263AEB7231CF5B3C8E6F2A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DA39889CF80C5B75BC500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81279D975F088223AAD2F52C /* Foundation.framework in Frameworks */,
+				BB89C15F94CF3266D0BD023E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2DB614890E6598006E7E79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C086CF8E2421C9C7996A85F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A604344AFCE8F7BF6F346CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F15AE4A74E0F8791E38B441 /* Info.plist */,
+				8A4743EFB522B90CB77A237F /* Pods-MakeItHybrid_Tests-Quick.modulemap */,
+				0BFD4E6D0C141DA5979AA70A /* Pods-MakeItHybrid_Tests-Quick.xcconfig */,
+				4E05B20224D740873525909E /* Pods-MakeItHybrid_Tests-Quick-Private.xcconfig */,
+				E654B27DAFB1E183BCAFCA28 /* Pods-MakeItHybrid_Tests-Quick-dummy.m */,
+				7803E5C0A2077E1F466FC500 /* Pods-MakeItHybrid_Tests-Quick-prefix.pch */,
+				D836405AAF5823DA8B1051C8 /* Pods-MakeItHybrid_Tests-Quick-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MakeItHybrid_Tests-Quick";
+			sourceTree = "<group>";
+		};
+		30A10EA2204AC97434533675 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				541D83E3A29E7E679202E607 /* Info.plist */,
+				D5F7C0B527519EB17BD5CBDD /* Info.plist */,
+				1CE6EF513683B3CB28E6059D /* Pods-MakeItHybrid_Example-MakeItHybrid.modulemap */,
+				C168D19F28AC0273DA11E3E2 /* Pods-MakeItHybrid_Example-MakeItHybrid.xcconfig */,
+				A5B7D2AE3D0C7FF27D6E4FFF /* Pods-MakeItHybrid_Example-MakeItHybrid-Private.xcconfig */,
+				537653CF2EF5DB6D285228BA /* Pods-MakeItHybrid_Example-MakeItHybrid-dummy.m */,
+				E77FD4128BEE15308778E51A /* Pods-MakeItHybrid_Example-MakeItHybrid-prefix.pch */,
+				D91478170ACA9C0143F69FBE /* Pods-MakeItHybrid_Example-MakeItHybrid-umbrella.h */,
+				801A482522EFC24AC5611843 /* Pods-MakeItHybrid_Tests-MakeItHybrid.modulemap */,
+				A0DD646F5077CA7E2D88FF3B /* Pods-MakeItHybrid_Tests-MakeItHybrid.xcconfig */,
+				559DF3A5B831A1C1B86B2EBE /* Pods-MakeItHybrid_Tests-MakeItHybrid-Private.xcconfig */,
+				09DD7230562F3D5F44282B98 /* Pods-MakeItHybrid_Tests-MakeItHybrid-dummy.m */,
+				D0BCA5490102A67A19337716 /* Pods-MakeItHybrid_Tests-MakeItHybrid-prefix.pch */,
+				2FA81CA9614ED7D3566AD0B3 /* Pods-MakeItHybrid_Tests-MakeItHybrid-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-MakeItHybrid_Example-MakeItHybrid";
+			sourceTree = "<group>";
+		};
+		391FFB4BC120D489A0B73304 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E13586E53E9E4A1ECAB5790 /* Info.plist */,
+				61DC7065B8F39132E5C7B7EF /* Pods-MakeItHybrid_Tests-Nimble.modulemap */,
+				335EA4167FC83B5D0DABA324 /* Pods-MakeItHybrid_Tests-Nimble.xcconfig */,
+				74A1C961ACD9573EAB82D6B2 /* Pods-MakeItHybrid_Tests-Nimble-Private.xcconfig */,
+				398EC781E578044D956A5FB0 /* Pods-MakeItHybrid_Tests-Nimble-dummy.m */,
+				0E187AE666D204C0029E77C5 /* Pods-MakeItHybrid_Tests-Nimble-prefix.pch */,
+				B2FAD31C5DC0BF2AD214F133 /* Pods-MakeItHybrid_Tests-Nimble-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MakeItHybrid_Tests-Nimble";
+			sourceTree = "<group>";
+		};
+		3EB79257B9D13E03C8BC3099 /* Nimble-Snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				3CC6A2B8322E961D44E95396 /* HaveValidSnapshot.swift */,
+				20AB4A8F3A857E565E3C2142 /* PrettySyntax.swift */,
+				8ECD2183EDDD76C4596197A9 /* Support Files */,
+			);
+			path = "Nimble-Snapshots";
+			sourceTree = "<group>";
+		};
+		49CA934A254CA4FA80F274BF /* Nimble */ = {
+			isa = PBXGroup;
+			children = (
+				B1F4B0EFA8E64A62C2D74BB2 /* AdapterProtocols.swift */,
+				55F517749A0BB1B4EC03CE24 /* AllPass.swift */,
+				8D703F001A9046B0390915BD /* AssertionRecorder.swift */,
+				B5C16E8C6223D77837189BB4 /* AsyncMatcherWrapper.swift */,
+				9CD8CE300A304E9CBFEBB76C /* BasicMatcherWrapper.swift */,
+				E5B17E69D492B3CABAF7B3C6 /* BeAKindOf.swift */,
+				3CA2F817A1165526DDF83AE9 /* BeAnInstanceOf.swift */,
+				C5314C7EF7F1C89A8A0E1B8E /* BeCloseTo.swift */,
+				326E8567EFE94044A5D8EF7D /* BeEmpty.swift */,
+				2BBD131099EF955649731B95 /* BeGreaterThan.swift */,
+				9C64496F64138C16A126CA07 /* BeGreaterThanOrEqualTo.swift */,
+				50C55AD1734CB719E69FA363 /* BeIdenticalTo.swift */,
+				2C9F1F5CCC43D72A108F80BA /* BeLessThan.swift */,
+				655E11FAB72C262D8F25A070 /* BeLessThanOrEqual.swift */,
+				0C3CE5F1A310D83292AC885B /* BeLogical.swift */,
+				C7FDFCA9B5FD3732F1002B51 /* BeNil.swift */,
+				9CF19AC24CF0E1D264CBDB31 /* BeginWith.swift */,
+				0037458C165D171CA9E79C77 /* Contain.swift */,
+				D0E18A8E96350CC4C28E58D4 /* DSL.h */,
+				04BBCA0F81D6B3EF29B98F5A /* DSL.m */,
+				C6932346638954ACCA75CA74 /* DSL.swift */,
+				976A9E2320EF9353ECFDEDD0 /* DSL+Wait.swift */,
+				EC6844FA4ECE115427812F9C /* EndWith.swift */,
+				71CDAE10BA64BE9EDF7C0832 /* Equal.swift */,
+				180B4E0D384AF080BD6A9ED8 /* Expectation.swift */,
+				499B2ECC92219299767D68B5 /* Expression.swift */,
+				A5D86B75E38FD99010264788 /* FailureMessage.swift */,
+				602764C5BB4782C997C65A55 /* FullMatcherWrapper.swift */,
+				3C4661988DF70B140209A05C /* Functional.swift */,
+				E56FA7E1A619298561B30F91 /* Match.swift */,
+				8BD4D3DE2D877531AA2D5176 /* MatcherFunc.swift */,
+				FF2EE12511D4D932C7432BF5 /* MatcherProtocols.swift */,
+				8A4559B96BBB286118587259 /* NMBExceptionCapture.h */,
+				6AC077B76B4A80FD9DE3BB4C /* NMBExceptionCapture.m */,
+				CB383EF512C8850226959AA5 /* Nimble.h */,
+				6D1CC7EA2FE3B01AA93B2671 /* NimbleXCTestHandler.swift */,
+				FD4B08C4C69B33F6EC35F9EB /* NonNilMatcherWrapper.swift */,
+				DEB6E58512A2C78A30D169CA /* ObjCMatcher.swift */,
+				0D77C572ABFBB1AF3C493EFE /* Poll.swift */,
+				0448177643538A918B0614FD /* RaisesException.swift */,
+				FA4D9120BC2B94558109E22D /* SourceLocation.swift */,
+				D969C4994E95BA274FBEE635 /* Stringers.swift */,
+				391FFB4BC120D489A0B73304 /* Support Files */,
+			);
+			path = Nimble;
+			sourceTree = "<group>";
+		};
+		4C2AF016BE2F7B1D67086CA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7682CA731F8673FF39B41572 /* Info.plist */,
+				42ECEFA78F9EEC65C2F4A788 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase.modulemap */,
+				66A69D35B49677583716C9AE /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase.xcconfig */,
+				42CC48CA0EB5EEDFEE0A316E /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-Private.xcconfig */,
+				931762FAF60F6E0CBC892126 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-dummy.m */,
+				79BC26C90CA56BC28D994811 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-prefix.pch */,
+				D5BA3F4AD354F6CA09A769C9 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MakeItHybrid_Tests-FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		4E240B905C4AA7B98E271A8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59538DF2092B441F78EE6325 /* FBSnapshotTestCase.framework */,
+				FF76B0D488B898B5132A6EA1 /* MakeItHybrid.bundle */,
+				042B9D596F47BB72C47F788C /* MakeItHybrid.bundle */,
+				10B13EC8BC44C22036A3EE61 /* MakeItHybrid.framework */,
+				A7EBB387E7B711CD4261B3F1 /* MakeItHybrid.framework */,
+				923DF1138C06454DF5018C05 /* Nimble.framework */,
+				D54D55293B70E4A9B00D5A1C /* Nimble_Snapshots.framework */,
+				3637CB0C776FB94BE6D418FE /* Pods_MakeItHybrid_Example.framework */,
+				0DA5B3F6E7F3333A44B83419 /* Pods_MakeItHybrid_Tests.framework */,
+				BFB6C3890DC6F22B4D2994D6 /* Quick.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64EDA3A7800A6BF3387BCBF1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F764AED379D0CAB1BB5FF330 /* MakeItHybrid */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		67F3EF9D14B89FD54649B5CF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BA51BCE657BF48319F37B /* Foundation.framework */,
+				87F7F460D18D5ADF15BA2A22 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6BE4FC9E971D8D2C04779C78 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF361AAEE88D97368B873702 /* Pods-MakeItHybrid_Example */,
+				CC9B0BEC111F962210BE5353 /* Pods-MakeItHybrid_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8ECD2183EDDD76C4596197A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E3D84C2537A15BE094E4C70 /* Info.plist */,
+				C530F4C98A376E882257337E /* Pods-MakeItHybrid_Tests-Nimble-Snapshots.modulemap */,
+				99588AFF67F400FF90F011A6 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots.xcconfig */,
+				15FBA4E1D4F3A4C547D8C363 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-Private.xcconfig */,
+				712E084A37238F4306428690 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-dummy.m */,
+				790F23616D5C80136B56A8CD /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-prefix.pch */,
+				EABB10BA9DB56107CFAF0056 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MakeItHybrid_Tests-Nimble-Snapshots";
+			sourceTree = "<group>";
+		};
+		BCCC528D463E4E607C8561AB /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B8E586B16ADC5AE07EC64 /* FBSnapshotTestCase.h */,
+				AC6FB40ED838DCACEA1AF05B /* FBSnapshotTestCase.m */,
+				31D53C1873CF56C56BC02713 /* FBSnapshotTestCasePlatform.h */,
+				A540FDA4B684FE4DF897BBFA /* FBSnapshotTestCasePlatform.m */,
+				98EAA0893141E97CE21DD959 /* FBSnapshotTestController.h */,
+				B44A8954A78FD0E206BBDB9C /* FBSnapshotTestController.m */,
+				91ABB259820AF6335F12C909 /* UIImage+Compare.h */,
+				76232146AD4FC9AC90E84272 /* UIImage+Compare.m */,
+				BC367EBBB423F6745D977AAE /* UIImage+Diff.h */,
+				1C28D8BCA279BAE18E302136 /* UIImage+Diff.m */,
+				4C2AF016BE2F7B1D67086CA4 /* Support Files */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		C54A7A94574E5C9C2018E5C7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DEC2C8485BB69AFB780B74C5 /* MakeItHybrid.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC9B0BEC111F962210BE5353 /* Pods-MakeItHybrid_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				33626D15F217D118E603A5E4 /* Info.plist */,
+				BF20C86F4FFC088355364BBA /* Pods-MakeItHybrid_Tests.modulemap */,
+				E3AD58F808B1486285484D4C /* Pods-MakeItHybrid_Tests-acknowledgements.markdown */,
+				CEEC6ED04C82CDF636949060 /* Pods-MakeItHybrid_Tests-acknowledgements.plist */,
+				3FEC1D66D7E9531BD674B40C /* Pods-MakeItHybrid_Tests-dummy.m */,
+				5AEFA517FED347312D80F41A /* Pods-MakeItHybrid_Tests-environment.h */,
+				DA7E0AF0B005D8167B753B8B /* Pods-MakeItHybrid_Tests-frameworks.sh */,
+				85F84B31B7744F4CEF182878 /* Pods-MakeItHybrid_Tests-resources.sh */,
+				385AC1DFB5FE7D0CA69EEDF1 /* Pods-MakeItHybrid_Tests-umbrella.h */,
+				BA19A75E5D0EDE162C2AB282 /* Pods-MakeItHybrid_Tests.debug.xcconfig */,
+				3B20D1368606ED729F60CC0E /* Pods-MakeItHybrid_Tests.release.xcconfig */,
+			);
+			name = "Pods-MakeItHybrid_Tests";
+			path = "Target Support Files/Pods-MakeItHybrid_Tests";
+			sourceTree = "<group>";
+		};
+		CC9C393A359CB164CF0B3C35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E3D3D039E60CD18C7DE043 /* FBSnapshotTestCase.framework */,
+				318D99AA1850DCDEA778543C /* Nimble.framework */,
+				A70A56164B0A982B31F6887A /* Quick.framework */,
+				67F3EF9D14B89FD54649B5CF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF4CE68A1B55EF905D50F93F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C54A7A94574E5C9C2018E5C7 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		E2AC58014F3956D9DD6317EA = {
+			isa = PBXGroup;
+			children = (
+				9E0D4DCE1DCDC9E4AE8FA609 /* Podfile */,
+				64EDA3A7800A6BF3387BCBF1 /* Development Pods */,
+				CC9C393A359CB164CF0B3C35 /* Frameworks */,
+				FD614A37025F42079E12199E /* Pods */,
+				4E240B905C4AA7B98E271A8C /* Products */,
+				6BE4FC9E971D8D2C04779C78 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E4D4B534D027F36FD07A70B1 /* Quick */ = {
+			isa = PBXGroup;
+			children = (
+				FD03B9489C6859296A328DFC /* Callsite.swift */,
+				96572312D3D5DE08EE99D0E9 /* Closures.swift */,
+				C177F568C565690B929A6D88 /* Configuration.swift */,
+				5DC2ED1BDB86A22FAA05DC78 /* DSL.swift */,
+				7F0CC470A532E22FFC73C390 /* Example.swift */,
+				0AF54A9BE46F227DD655AE84 /* ExampleGroup.swift */,
+				EE10C2D07E09299AEC619C88 /* ExampleHooks.swift */,
+				6368D8293DF2495B080BFAC7 /* ExampleMetadata.swift */,
+				F857724E5A0DD672B23EBEF3 /* Failure.swift */,
+				247370ADD3D6E06617A7AED2 /* Filter.swift */,
+				45EEC855B4566289BA0AA5F1 /* NSString+QCKSelectorName.h */,
+				04F421DF5AC1BB0B349F8423 /* NSString+QCKSelectorName.m */,
+				A80973536A3E697892044DF9 /* QCKDSL.h */,
+				97539A41E7BDDC95C3CE8E3B /* QCKDSL.m */,
+				2EEF10BDC120468AE55D6A15 /* Quick.h */,
+				5807BAC90EB4798D23422DF1 /* QuickConfiguration.h */,
+				0E6915D11E7609078820D75F /* QuickConfiguration.m */,
+				914C6B6BFE512335180C2E61 /* QuickSpec.h */,
+				681D9AA02520713D30E586BF /* QuickSpec.m */,
+				73FB519CFB658016662BB8B0 /* SuiteHooks.swift */,
+				1842E057B3F65E34C1A067B0 /* World.swift */,
+				C7520BA0B7DD2AD0267D4C22 /* World+DSL.swift */,
+				2A604344AFCE8F7BF6F346CC /* Support Files */,
+			);
+			path = Quick;
+			sourceTree = "<group>";
+		};
+		F764AED379D0CAB1BB5FF330 /* MakeItHybrid */ = {
+			isa = PBXGroup;
+			children = (
+				CF4CE68A1B55EF905D50F93F /* Pod */,
+				30A10EA2204AC97434533675 /* Support Files */,
+			);
+			name = MakeItHybrid;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FD614A37025F42079E12199E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC528D463E4E607C8561AB /* FBSnapshotTestCase */,
+				49CA934A254CA4FA80F274BF /* Nimble */,
+				3EB79257B9D13E03C8BC3099 /* Nimble-Snapshots */,
+				E4D4B534D027F36FD07A70B1 /* Quick */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF361AAEE88D97368B873702 /* Pods-MakeItHybrid_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BB3AC9FF5BCB54BBFD56C342 /* Info.plist */,
+				314A57E77AB64173F8C2086A /* Pods-MakeItHybrid_Example.modulemap */,
+				D8D2F36A25B7F0A784D37E75 /* Pods-MakeItHybrid_Example-acknowledgements.markdown */,
+				8A7D9335CF07C701E9A5BF86 /* Pods-MakeItHybrid_Example-acknowledgements.plist */,
+				F4B3BF0C3BF53DA0C6AD6569 /* Pods-MakeItHybrid_Example-dummy.m */,
+				EC9A751806F87E90DE778A3B /* Pods-MakeItHybrid_Example-environment.h */,
+				E15AFE922465096DE8D08A71 /* Pods-MakeItHybrid_Example-frameworks.sh */,
+				BDABBC8CD7D8B228535E632A /* Pods-MakeItHybrid_Example-resources.sh */,
+				D9D253C0C1BC45F1682ED470 /* Pods-MakeItHybrid_Example-umbrella.h */,
+				FF1BCA8ACC71BE07AD249794 /* Pods-MakeItHybrid_Example.debug.xcconfig */,
+				8F085531F0B39AFCFCE289BB /* Pods-MakeItHybrid_Example.release.xcconfig */,
+			);
+			name = "Pods-MakeItHybrid_Example";
+			path = "Target Support Files/Pods-MakeItHybrid_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03E44A7FC11B6C220D995588 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C590D8769C2DF86F95171B35 /* NSString+QCKSelectorName.h in Headers */,
+				3383FCD414377A0AF1DA51AC /* Pods-MakeItHybrid_Tests-Quick-umbrella.h in Headers */,
+				0CF26C5B15F55AFD5ED37BE7 /* QCKDSL.h in Headers */,
+				6FA0DAF6C447F8375C7B0E56 /* Quick.h in Headers */,
+				74EE5A5A8D4B1869CA8C3AB4 /* QuickConfiguration.h in Headers */,
+				A3545B65CB83659E8711771A /* QuickSpec.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316B18558E94160866183C8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F4E5205D646C7B2489F437 /* FBSnapshotTestCase.h in Headers */,
+				6A156686FF0D934CAB382D4C /* FBSnapshotTestCasePlatform.h in Headers */,
+				B49A549E39EA625147E244EE /* FBSnapshotTestController.h in Headers */,
+				F8810D674EE341660A6600D3 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-umbrella.h in Headers */,
+				883C1C0DFE67E880B59A2AB3 /* UIImage+Compare.h in Headers */,
+				B399BAF606702E8C36A47ABC /* UIImage+Diff.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569CD94A9E8E7D71F3BF35F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D1E32DB0A2124227B7C48A /* Pods-MakeItHybrid_Tests-MakeItHybrid-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669EC2420DC3BCD8E81FBEC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18370242B424276B516A176 /* Pods-MakeItHybrid_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739A8CD90DD24D0920BF812C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8BA52F99D0A4DDDF12C6D0 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8BE7A3B7BB35219236F66CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CDCAB229A739FF6B28EBDC /* DSL.h in Headers */,
+				ADBE913B685F3FB2660678B8 /* NMBExceptionCapture.h in Headers */,
+				B1A150B9056678D38ABFFE30 /* Nimble.h in Headers */,
+				87470593CC1D6FE9C1FC1403 /* Pods-MakeItHybrid_Tests-Nimble-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3871E4FD4418CC41D33EE1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6AE9B95BE10BD5F6172551 /* Pods-MakeItHybrid_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF77B7B970A0A0D6DC297B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57BB92B6DF102F2845108D6 /* Pods-MakeItHybrid_Example-MakeItHybrid-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19E16FBC92738FA7D034A585 /* Pods-MakeItHybrid_Example-MakeItHybrid-MakeItHybrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4616F94672D2BAE17D4AEBB2 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Example-MakeItHybrid-MakeItHybrid" */;
+			buildPhases = (
+				FD36F537D9E71133AC85A940 /* Sources */,
+				14C1F0290C172ACEF665816B /* Frameworks */,
+				3867129D181D66D17E5903D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MakeItHybrid_Example-MakeItHybrid-MakeItHybrid";
+			productName = "Pods-MakeItHybrid_Example-MakeItHybrid-MakeItHybrid";
+			productReference = FF76B0D488B898B5132A6EA1 /* MakeItHybrid.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2432472C57CBC8C2CFEDAD27 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D484D4B661CDF020C0E534F4 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-Nimble-Snapshots" */;
+			buildPhases = (
+				EA7D92E7F7493D909A02C521 /* Sources */,
+				9ACAB8A240772799D8A6C148 /* Frameworks */,
+				739A8CD90DD24D0920BF812C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BC77ED9A6A5AAA471E67F04 /* PBXTargetDependency */,
+				9D6FAC38CE3C97A658070AC6 /* PBXTargetDependency */,
+				784DFD7778432BF9FC431D5D /* PBXTargetDependency */,
+			);
+			name = "Pods-MakeItHybrid_Tests-Nimble-Snapshots";
+			productName = "Pods-MakeItHybrid_Tests-Nimble-Snapshots";
+			productReference = D54D55293B70E4A9B00D5A1C /* Nimble_Snapshots.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E934F1DFB6DD17BBFF6F931 /* Pods-MakeItHybrid_Tests-Nimble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42702C945AF32B99579FEDD5 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-Nimble" */;
+			buildPhases = (
+				97650C487DDD87190EB184CB /* Sources */,
+				83C7420F8305BEF031180CB7 /* Frameworks */,
+				B8BE7A3B7BB35219236F66CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MakeItHybrid_Tests-Nimble";
+			productName = "Pods-MakeItHybrid_Tests-Nimble";
+			productReference = 923DF1138C06454DF5018C05 /* Nimble.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42FD803A121098EE965D12AC /* Pods-MakeItHybrid_Tests-MakeItHybrid-MakeItHybrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4562BD7407C2265ECB03D2 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-MakeItHybrid-MakeItHybrid" */;
+			buildPhases = (
+				1C71B6B6E36E7335DA87838C /* Sources */,
+				4A70717ECA634FED9284BC1C /* Frameworks */,
+				A5CCEBE82B4ECFCD1BF8B147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MakeItHybrid_Tests-MakeItHybrid-MakeItHybrid";
+			productName = "Pods-MakeItHybrid_Tests-MakeItHybrid-MakeItHybrid";
+			productReference = 042B9D596F47BB72C47F788C /* MakeItHybrid.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5BEA2A30F39413C7D7A84EE1 /* Pods-MakeItHybrid_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA926E3B8A424234E23B13D /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests" */;
+			buildPhases = (
+				9728593242162E7612D60AEC /* Sources */,
+				ACDCB4C479A78437EC6D4AEE /* Frameworks */,
+				669EC2420DC3BCD8E81FBEC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25CA7592DB2B9E7564C11E5 /* PBXTargetDependency */,
+				ED4C3CA8EC30D789A2D67984 /* PBXTargetDependency */,
+				1880F088C6AEC56D4D70DD22 /* PBXTargetDependency */,
+				7DFFBC3CDDB0548930684B39 /* PBXTargetDependency */,
+				4795EB467794C13A346DDC8A /* PBXTargetDependency */,
+			);
+			name = "Pods-MakeItHybrid_Tests";
+			productName = "Pods-MakeItHybrid_Tests";
+			productReference = 0DA5B3F6E7F3333A44B83419 /* Pods_MakeItHybrid_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65B40D92B4F7405ADE0C5BC2 /* Pods-MakeItHybrid_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D349F91C60380DA7AF9AC26 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Example" */;
+			buildPhases = (
+				9E792CEDEEDAA72F27377D2D /* Sources */,
+				E2DB614890E6598006E7E79C /* Frameworks */,
+				D3871E4FD4418CC41D33EE1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB5903C7FC1842FCAD2625E /* PBXTargetDependency */,
+			);
+			name = "Pods-MakeItHybrid_Example";
+			productName = "Pods-MakeItHybrid_Example";
+			productReference = 3637CB0C776FB94BE6D418FE /* Pods_MakeItHybrid_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7ADBCECBE900A3711B0CD8D3 /* Pods-MakeItHybrid_Tests-Quick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C8A2D315D06E2CF4486D226 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-Quick" */;
+			buildPhases = (
+				31E2459C06234D90216F9391 /* Sources */,
+				4FACC92620C94C4B10FD8481 /* Frameworks */,
+				03E44A7FC11B6C220D995588 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MakeItHybrid_Tests-Quick";
+			productName = "Pods-MakeItHybrid_Tests-Quick";
+			productReference = BFB6C3890DC6F22B4D2994D6 /* Quick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82757B93193F2CDB30260626 /* Pods-MakeItHybrid_Example-MakeItHybrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8554E0589A763DA29BD94577 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Example-MakeItHybrid" */;
+			buildPhases = (
+				0AB8C87445E7F51271D3E292 /* Sources */,
+				8ECC38F16A946056A947966E /* Frameworks */,
+				C11086A87D86B4DFF72AC8C0 /* Resources */,
+				EDF77B7B970A0A0D6DC297B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DC15B7EE44E8EC31F3D5BB3 /* PBXTargetDependency */,
+			);
+			name = "Pods-MakeItHybrid_Example-MakeItHybrid";
+			productName = "Pods-MakeItHybrid_Example-MakeItHybrid";
+			productReference = A7EBB387E7B711CD4261B3F1 /* MakeItHybrid.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9308555887B8C1CA7550A176 /* Pods-MakeItHybrid_Tests-MakeItHybrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281D32E6051A58051B100968 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-MakeItHybrid" */;
+			buildPhases = (
+				32E3AD79CE6B6CDB40B8A5B0 /* Sources */,
+				B9E2DAC915BF6A4FCC8C40E8 /* Frameworks */,
+				FBA92177C7FE5B7447AC2AF9 /* Resources */,
+				569CD94A9E8E7D71F3BF35F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63EF33FB58403A60B9B6FD65 /* PBXTargetDependency */,
+			);
+			name = "Pods-MakeItHybrid_Tests-MakeItHybrid";
+			productName = "Pods-MakeItHybrid_Tests-MakeItHybrid";
+			productReference = 10B13EC8BC44C22036A3EE61 /* MakeItHybrid.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0E18EB2FA44070EBE2430E0 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BE658F4394312324EAB46D /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-FBSnapshotTestCase" */;
+			buildPhases = (
+				5A05AB4BF1F71A2AC36B60D1 /* Sources */,
+				D14DA39889CF80C5B75BC500 /* Frameworks */,
+				316B18558E94160866183C8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase";
+			productName = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase";
+			productReference = 59538DF2092B441F78EE6325 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4967D5A64EE0021C475FA266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 1875E1831DE79F88AE126EA7 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2AC58014F3956D9DD6317EA;
+			productRefGroup = 4E240B905C4AA7B98E271A8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65B40D92B4F7405ADE0C5BC2 /* Pods-MakeItHybrid_Example */,
+				82757B93193F2CDB30260626 /* Pods-MakeItHybrid_Example-MakeItHybrid */,
+				19E16FBC92738FA7D034A585 /* Pods-MakeItHybrid_Example-MakeItHybrid-MakeItHybrid */,
+				5BEA2A30F39413C7D7A84EE1 /* Pods-MakeItHybrid_Tests */,
+				B0E18EB2FA44070EBE2430E0 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase */,
+				9308555887B8C1CA7550A176 /* Pods-MakeItHybrid_Tests-MakeItHybrid */,
+				42FD803A121098EE965D12AC /* Pods-MakeItHybrid_Tests-MakeItHybrid-MakeItHybrid */,
+				2E934F1DFB6DD17BBFF6F931 /* Pods-MakeItHybrid_Tests-Nimble */,
+				2432472C57CBC8C2CFEDAD27 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots */,
+				7ADBCECBE900A3711B0CD8D3 /* Pods-MakeItHybrid_Tests-Quick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3867129D181D66D17E5903D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CCEBE82B4ECFCD1BF8B147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11086A87D86B4DFF72AC8C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D703F8E477AEC9F3BBC740A /* MakeItHybrid.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA92177C7FE5B7447AC2AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EB7704C6DA7964A3710C5F /* MakeItHybrid.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB8C87445E7F51271D3E292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2349116ACFD53BA7C390D51 /* MakeItHybrid.swift in Sources */,
+				964174ADAE8F9AB6CB51A500 /* Pods-MakeItHybrid_Example-MakeItHybrid-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C71B6B6E36E7335DA87838C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E2459C06234D90216F9391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA70E8907CFF520B38A1C195 /* Callsite.swift in Sources */,
+				9E1C9BB25E843E798AF07C9C /* Closures.swift in Sources */,
+				F33486E428D59DDF74BA310A /* Configuration.swift in Sources */,
+				A0679FC6ADC93AEBB8DE2281 /* DSL.swift in Sources */,
+				2A174185F143C7D9D62ED74A /* Example.swift in Sources */,
+				517DFF121458508A5728079B /* ExampleGroup.swift in Sources */,
+				F7C66B8B10C753B7FC108937 /* ExampleHooks.swift in Sources */,
+				9D35F6E125F08E3EB0F05D79 /* ExampleMetadata.swift in Sources */,
+				4E3475BCC2300F5912BE1601 /* Failure.swift in Sources */,
+				E1DF296F635F5389F69BC348 /* Filter.swift in Sources */,
+				67A50C228A0F1651E52BCDCB /* NSString+QCKSelectorName.m in Sources */,
+				572C4B4D4ED43310C7562EA7 /* Pods-MakeItHybrid_Tests-Quick-dummy.m in Sources */,
+				8F23BC4302495407984A8327 /* QCKDSL.m in Sources */,
+				7DFC6B817425CEBB1B3825E3 /* QuickConfiguration.m in Sources */,
+				DFE7D4ADB6360E7C7CE1F6B5 /* QuickSpec.m in Sources */,
+				DF3E71DC5B7D228BAA88C5A5 /* SuiteHooks.swift in Sources */,
+				CAEDC1FDDA46F9DD24F134F1 /* World+DSL.swift in Sources */,
+				D4A43F67353F8184B85F057E /* World.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E3AD79CE6B6CDB40B8A5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFEFB39B275200C35E9A695 /* MakeItHybrid.swift in Sources */,
+				FAE70A1F0B6882241C698A6E /* Pods-MakeItHybrid_Tests-MakeItHybrid-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A05AB4BF1F71A2AC36B60D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368E89D204D19B5B2B564B24 /* FBSnapshotTestCase.m in Sources */,
+				4C621AEF2567350FD9984A39 /* FBSnapshotTestCasePlatform.m in Sources */,
+				1DBB3DF26EA6E595CAEB17AD /* FBSnapshotTestController.m in Sources */,
+				B9A1ECFEED4E083BCA4E3FF1 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-dummy.m in Sources */,
+				3F1272B507807A57F4F875E2 /* UIImage+Compare.m in Sources */,
+				C31FE3F6DB6113DAB11FDF5A /* UIImage+Diff.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9728593242162E7612D60AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD45943004EE6B6E08E6D57E /* Pods-MakeItHybrid_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97650C487DDD87190EB184CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC148C369EA98D626E386BD /* AdapterProtocols.swift in Sources */,
+				B4CD398B22F458703E0D6C23 /* AllPass.swift in Sources */,
+				187084D8351BF03B56F42028 /* AssertionRecorder.swift in Sources */,
+				5EEE77227E0A099F48DD68B6 /* AsyncMatcherWrapper.swift in Sources */,
+				99B26508F70C27570088A070 /* BasicMatcherWrapper.swift in Sources */,
+				3F66EB94AFE6386D0236C34D /* BeAKindOf.swift in Sources */,
+				B4276AFBC8C44090130F86B4 /* BeAnInstanceOf.swift in Sources */,
+				2D808D95530F8EF32ADA252E /* BeCloseTo.swift in Sources */,
+				6300740A8BAA052E9504DA9E /* BeEmpty.swift in Sources */,
+				7AE13F2526B00C0E6A81D7DB /* BeGreaterThan.swift in Sources */,
+				22F27826F2765F331E1601DB /* BeGreaterThanOrEqualTo.swift in Sources */,
+				21B544F3D16D73CE75E1C798 /* BeIdenticalTo.swift in Sources */,
+				2265949A0A0704E3DCC6734B /* BeLessThan.swift in Sources */,
+				F2834C7E04939F03B7AE95F4 /* BeLessThanOrEqual.swift in Sources */,
+				C28B33238A55E099F9A79BB8 /* BeLogical.swift in Sources */,
+				094D26702AFD9E8D9AD8B14B /* BeNil.swift in Sources */,
+				65F59AA9BF3E76D6194654BD /* BeginWith.swift in Sources */,
+				A6A0CD3EF218F2C6F926D65D /* Contain.swift in Sources */,
+				FD1A81BAA866EF941517B004 /* DSL+Wait.swift in Sources */,
+				5F0EF55BF807052877B1778C /* DSL.m in Sources */,
+				392C37BB2CA9AF7E100A0FFF /* DSL.swift in Sources */,
+				373B295DE5AE5539FC90D1C6 /* EndWith.swift in Sources */,
+				BD572B600FE5FE1BE99EF012 /* Equal.swift in Sources */,
+				748D05D0EE605281AB86C7AB /* Expectation.swift in Sources */,
+				0B6E00364AE9459A69D878C2 /* Expression.swift in Sources */,
+				DE771DE29C6E67AD7214B075 /* FailureMessage.swift in Sources */,
+				C254C874813838674434C141 /* FullMatcherWrapper.swift in Sources */,
+				D1CA82C0DEE52AA2FBD1FFEC /* Functional.swift in Sources */,
+				8F0ED39B01F7933C787531C3 /* Match.swift in Sources */,
+				4F7A5413DD1AF455E1AA1A51 /* MatcherFunc.swift in Sources */,
+				30896B7EAE38376466E8F41F /* MatcherProtocols.swift in Sources */,
+				C48957503500E79B89650CBE /* NMBExceptionCapture.m in Sources */,
+				410A1677D68497786C80257F /* NimbleXCTestHandler.swift in Sources */,
+				6EC49EB11E49966E76177965 /* NonNilMatcherWrapper.swift in Sources */,
+				F923FF14BD5C6BAC0A74ACFE /* ObjCMatcher.swift in Sources */,
+				DBB4F17DDE5AA0A492A7ADEA /* Pods-MakeItHybrid_Tests-Nimble-dummy.m in Sources */,
+				8BEDC5B458F1559A24AECB5A /* Poll.swift in Sources */,
+				85005CEDC1FA428B5D148501 /* RaisesException.swift in Sources */,
+				0BE69328ACAAF15031E99560 /* SourceLocation.swift in Sources */,
+				C9D8362BED47B18948E0149C /* Stringers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E792CEDEEDAA72F27377D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F69EE3DDDCDCCD21B09821 /* Pods-MakeItHybrid_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7D92E7F7493D909A02C521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990E2AD2148147BBC4D3BB99 /* HaveValidSnapshot.swift in Sources */,
+				49FADDA096713AEFFB19E2E4 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-dummy.m in Sources */,
+				B102C6BB66F337242C4861C0 /* PrettySyntax.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD36F537D9E71133AC85A940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1880F088C6AEC56D4D70DD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeItHybrid_Tests-Nimble";
+			target = 2E934F1DFB6DD17BBFF6F931 /* Pods-MakeItHybrid_Tests-Nimble */;
+			targetProxy = 62B8AC56935BA05781C317E6 /* PBXContainerItemProxy */;
+		};
+		2DC15B7EE44E8EC31F3D5BB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeItHybrid_Example-MakeItHybrid-MakeItHybrid";
+			target = 19E16FBC92738FA7D034A585 /* Pods-MakeItHybrid_Example-MakeItHybrid-MakeItHybrid */;
+			targetProxy = 26892FC593D54DB88DA6B9B0 /* PBXContainerItemProxy */;
+		};
+		3BC77ED9A6A5AAA471E67F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase";
+			target = B0E18EB2FA44070EBE2430E0 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase */;
+			targetProxy = 1260993B771C8B4FB342C02D /* PBXContainerItemProxy */;
+		};
+		4795EB467794C13A346DDC8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeItHybrid_Tests-Quick";
+			target = 7ADBCECBE900A3711B0CD8D3 /* Pods-MakeItHybrid_Tests-Quick */;
+			targetProxy = 82B083D11613BD0013D7BA9D /* PBXContainerItemProxy */;
+		};
+		63EF33FB58403A60B9B6FD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeItHybrid_Tests-MakeItHybrid-MakeItHybrid";
+			target = 42FD803A121098EE965D12AC /* Pods-MakeItHybrid_Tests-MakeItHybrid-MakeItHybrid */;
+			targetProxy = D6B1CA530702E58961B15753 /* PBXContainerItemProxy */;
+		};
+		784DFD7778432BF9FC431D5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeItHybrid_Tests-Quick";
+			target = 7ADBCECBE900A3711B0CD8D3 /* Pods-MakeItHybrid_Tests-Quick */;
+			targetProxy = E7122720C2AAAD38C95D306A /* PBXContainerItemProxy */;
+		};
+		7DFFBC3CDDB0548930684B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeItHybrid_Tests-Nimble-Snapshots";
+			target = 2432472C57CBC8C2CFEDAD27 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots */;
+			targetProxy = DD5EACC940423F4F24B43B37 /* PBXContainerItemProxy */;
+		};
+		9D6FAC38CE3C97A658070AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeItHybrid_Tests-Nimble";
+			target = 2E934F1DFB6DD17BBFF6F931 /* Pods-MakeItHybrid_Tests-Nimble */;
+			targetProxy = 543397DA0FA8C77B69F03290 /* PBXContainerItemProxy */;
+		};
+		CAB5903C7FC1842FCAD2625E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeItHybrid_Example-MakeItHybrid";
+			target = 82757B93193F2CDB30260626 /* Pods-MakeItHybrid_Example-MakeItHybrid */;
+			targetProxy = B2AC64B8DF07FDC560C7FC08 /* PBXContainerItemProxy */;
+		};
+		D25CA7592DB2B9E7564C11E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeItHybrid_Tests-FBSnapshotTestCase";
+			target = B0E18EB2FA44070EBE2430E0 /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase */;
+			targetProxy = A0350841EF2FDC296071D85F /* PBXContainerItemProxy */;
+		};
+		ED4C3CA8EC30D789A2D67984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeItHybrid_Tests-MakeItHybrid";
+			target = 9308555887B8C1CA7550A176 /* Pods-MakeItHybrid_Tests-MakeItHybrid */;
+			targetProxy = EF6821D958FA596DF016D79A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		181D1DE109F69213EC8E3BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		254B33A70349207AB7BEB167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559DF3A5B831A1C1B86B2EBE /* Pods-MakeItHybrid_Tests-MakeItHybrid-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MakeItHybrid_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MakeItHybrid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		26B6B38BC713AD42D3CE226D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559DF3A5B831A1C1B86B2EBE /* Pods-MakeItHybrid_Tests-MakeItHybrid-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Tests-MakeItHybrid/Pods-MakeItHybrid_Tests-MakeItHybrid-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-MakeItHybrid/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-MakeItHybrid/Pods-MakeItHybrid_Tests-MakeItHybrid.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MakeItHybrid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FAF66846924B4C107B6ABA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B20D1368606ED729F60CC0E /* Pods-MakeItHybrid_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests/Pods-MakeItHybrid_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MakeItHybrid_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44E065118C86661E4F496242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA19A75E5D0EDE162C2AB282 /* Pods-MakeItHybrid_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests/Pods-MakeItHybrid_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MakeItHybrid_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B9D12C3A33C058849262136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B7D2AE3D0C7FF27D6E4FFF /* Pods-MakeItHybrid_Example-MakeItHybrid-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Example-MakeItHybrid/Pods-MakeItHybrid_Example-MakeItHybrid-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Example-MakeItHybrid/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Example-MakeItHybrid/Pods-MakeItHybrid_Example-MakeItHybrid.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MakeItHybrid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5806294D9720E4CBE9148EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15FBA4E1D4F3A4C547D8C363 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble-Snapshots/Pods-MakeItHybrid_Tests-Nimble-Snapshots-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble-Snapshots/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble-Snapshots/Pods-MakeItHybrid_Tests-Nimble-Snapshots.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Nimble_Snapshots;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		715813CC83FC9EA451CD86A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A1C961ACD9573EAB82D6B2 /* Pods-MakeItHybrid_Tests-Nimble-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble/Pods-MakeItHybrid_Tests-Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble/Pods-MakeItHybrid_Tests-Nimble.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		735995E7DE1FC1DDF60654A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F085531F0B39AFCFCE289BB /* Pods-MakeItHybrid_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Example/Pods-MakeItHybrid_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MakeItHybrid_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		756974F23AE55F090AC05C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B7D2AE3D0C7FF27D6E4FFF /* Pods-MakeItHybrid_Example-MakeItHybrid-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Example-MakeItHybrid/Pods-MakeItHybrid_Example-MakeItHybrid-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Example-MakeItHybrid/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Example-MakeItHybrid/Pods-MakeItHybrid_Example-MakeItHybrid.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MakeItHybrid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F0A92E596AD0D977B7F1437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559DF3A5B831A1C1B86B2EBE /* Pods-MakeItHybrid_Tests-MakeItHybrid-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Tests-MakeItHybrid/Pods-MakeItHybrid_Tests-MakeItHybrid-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-MakeItHybrid/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-MakeItHybrid/Pods-MakeItHybrid_Tests-MakeItHybrid.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MakeItHybrid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F2F93B7D86A6589CB229974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559DF3A5B831A1C1B86B2EBE /* Pods-MakeItHybrid_Tests-MakeItHybrid-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MakeItHybrid_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MakeItHybrid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		82BA5482FBBF05138B823717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B7D2AE3D0C7FF27D6E4FFF /* Pods-MakeItHybrid_Example-MakeItHybrid-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MakeItHybrid_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MakeItHybrid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A2C2E394DFF890D48D025488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B7D2AE3D0C7FF27D6E4FFF /* Pods-MakeItHybrid_Example-MakeItHybrid-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MakeItHybrid_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MakeItHybrid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BBDD8D394123AB0172B69A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CC48CA0EB5EEDFEE0A316E /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Tests-FBSnapshotTestCase/Pods-MakeItHybrid_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-FBSnapshotTestCase/Pods-MakeItHybrid_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C91547A414ABB4F189DBCAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C93608921078DC725E24AC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15FBA4E1D4F3A4C547D8C363 /* Pods-MakeItHybrid_Tests-Nimble-Snapshots-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble-Snapshots/Pods-MakeItHybrid_Tests-Nimble-Snapshots-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble-Snapshots/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble-Snapshots/Pods-MakeItHybrid_Tests-Nimble-Snapshots.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Nimble_Snapshots;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB3B95316CEFCB11B90063A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E05B20224D740873525909E /* Pods-MakeItHybrid_Tests-Quick-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Tests-Quick/Pods-MakeItHybrid_Tests-Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Quick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Quick/Pods-MakeItHybrid_Tests-Quick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE90BAE2AE7BA5D4D63C93B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1BCA8ACC71BE07AD249794 /* Pods-MakeItHybrid_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Example/Pods-MakeItHybrid_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MakeItHybrid_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDE6A8D4521277E164329751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A1C961ACD9573EAB82D6B2 /* Pods-MakeItHybrid_Tests-Nimble-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble/Pods-MakeItHybrid_Tests-Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Nimble/Pods-MakeItHybrid_Tests-Nimble.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAFFF70814E6140FDE66F558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E05B20224D740873525909E /* Pods-MakeItHybrid_Tests-Quick-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Tests-Quick/Pods-MakeItHybrid_Tests-Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Quick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-Quick/Pods-MakeItHybrid_Tests-Quick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFC9C2901AE8BC26BBB49C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CC48CA0EB5EEDFEE0A316E /* Pods-MakeItHybrid_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MakeItHybrid_Tests-FBSnapshotTestCase/Pods-MakeItHybrid_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItHybrid_Tests-FBSnapshotTestCase/Pods-MakeItHybrid_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1875E1831DE79F88AE126EA7 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181D1DE109F69213EC8E3BAA /* Debug */,
+				C91547A414ABB4F189DBCAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C8A2D315D06E2CF4486D226 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-Quick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3B95316CEFCB11B90063A3 /* Debug */,
+				FAFFF70814E6140FDE66F558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D349F91C60380DA7AF9AC26 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE90BAE2AE7BA5D4D63C93B9 /* Debug */,
+				735995E7DE1FC1DDF60654A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281D32E6051A58051B100968 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-MakeItHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B6B38BC713AD42D3CE226D /* Debug */,
+				7F0A92E596AD0D977B7F1437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42702C945AF32B99579FEDD5 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-Nimble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715813CC83FC9EA451CD86A3 /* Debug */,
+				EDE6A8D4521277E164329751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4616F94672D2BAE17D4AEBB2 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Example-MakeItHybrid-MakeItHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BA5482FBBF05138B823717 /* Debug */,
+				A2C2E394DFF890D48D025488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA926E3B8A424234E23B13D /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E065118C86661E4F496242 /* Debug */,
+				3FAF66846924B4C107B6ABA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8554E0589A763DA29BD94577 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Example-MakeItHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9D12C3A33C058849262136 /* Debug */,
+				756974F23AE55F090AC05C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D484D4B661CDF020C0E534F4 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-Nimble-Snapshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93608921078DC725E24AC0E /* Debug */,
+				5806294D9720E4CBE9148EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BE658F4394312324EAB46D /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDD8D394123AB0172B69A59 /* Debug */,
+				FFC9C2901AE8BC26BBB49C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4562BD7407C2265ECB03D2 /* Build configuration list for PBXNativeTarget "Pods-MakeItHybrid_Tests-MakeItHybrid-MakeItHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2F93B7D86A6589CB229974 /* Debug */,
+				254B33A70349207AB7BEB167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4967D5A64EE0021C475FA266 /* Project object */;
+}

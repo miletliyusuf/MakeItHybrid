@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import MakeItHybrid
 
 class ViewController: UIViewController {
 
+	var openUrl = MakeItHybrid()
+	
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+		openUrl.superView = self.view
+		openUrl.makeHybridWithUrlString("http://miletli.com")
     }
 
     override func didReceiveMemoryWarning() {

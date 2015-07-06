@@ -1,0 +1,6 @@
+framework module MakeItHybrid {
+  umbrella header "Pods-MakeItHybrid_Example-MakeItHybrid-umbrella.h"
+
+  export *
+  module * { export * }
+}

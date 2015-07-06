@@ -2,11 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'MakeItHybrid_Example', :exclusive => true do
-  pod "MakeItHybrid", :path => "../"
+  pod "MakeItHybrid", :path => "../MakeItHybrid.podspec"
 end
 
 target 'MakeItHybrid_Tests', :exclusive => true do
-  pod "MakeItHybrid", :path => "../"
+  pod "MakeItHybrid", :path => "../MakeItHybrid.podspec"
 
   pod 'Quick', '~> 0.3.1'
   pod 'Nimble'
