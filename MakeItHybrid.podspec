@@ -10,12 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "MakeItHybrid"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MakeItHybrid."
+  s.summary          = "MakeItHybrid let you create your hybrid application very easily for iOS in Swift language."
   s.description      = <<-DESC
-                       An optional longer description of MakeItHybrid
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+						MakeItHybrid let you create your hybrid application very easily for iOS in Swift language. It works only iOS 8.0 and above.
                        DESC
   s.homepage         = "https://github.com/miletliyusuf/MakeItHybrid"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"

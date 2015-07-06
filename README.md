@@ -1,6 +1,16 @@
+# MakeItHybrid
+
+[![CI Status](http://img.shields.io/travis/yusufm/MakeItHybrid.svg?style=flat)](https://travis-ci.org/yusufm/MakeItHybrid)
+[![Version](https://img.shields.io/cocoapods/v/MakeItHybrid.svg?style=flat)](http://cocoapods.org/pods/MakeItHybrid)
+[![License](https://img.shields.io/cocoapods/l/MakeItHybrid.svg?style=flat)](http://cocoapods.org/pods/MakeItHybrid)
+[![Platform](https://img.shields.io/cocoapods/p/MakeItHybrid.svg?style=flat)](http://cocoapods.org/pods/MakeItHybrid)
+
+
+MakeItHybrid let you create your hybrid application very easily for iOS in Swift language.
+
 # How To Get Start
 
-MakeItHybrid let you create your hybrid application very easily for iOS in Swift language. If you finished installation of pod file(see at below how to do), you should import the framework in the begining of your controller class like:
+ If you finished installation of pod file(see at below how to do), you should import the framework in the begining of your controller class like:
 
 ```swift
 	import MakeItHybrid
@@ -18,13 +28,6 @@ finally add your url:
 	openUrl.makeHybridWithUrlString("http://miletli.com")
 ```
 In any kind of question or advices, please do not hesitate to ask or advice!
-
-# MakeItHybrid
-
-[![CI Status](http://img.shields.io/travis/yusufm/MakeItHybrid.svg?style=flat)](https://travis-ci.org/yusufm/MakeItHybrid)
-[![Version](https://img.shields.io/cocoapods/v/MakeItHybrid.svg?style=flat)](http://cocoapods.org/pods/MakeItHybrid)
-[![License](https://img.shields.io/cocoapods/l/MakeItHybrid.svg?style=flat)](http://cocoapods.org/pods/MakeItHybrid)
-[![Platform](https://img.shields.io/cocoapods/p/MakeItHybrid.svg?style=flat)](http://cocoapods.org/pods/MakeItHybrid)
 
 ## Usage
 
