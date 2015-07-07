@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MakeItHybrid"
-  s.version          = "0.0.1"
+  s.version          = "0.1.0"
   s.summary          = "MakeItHybrid let you create your hybrid application very easily for iOS in Swift language."
   s.description      = <<-DESC
 						MakeItHybrid let you create your hybrid application very easily for iOS in Swift language. It works only iOS 8.0 and above.
