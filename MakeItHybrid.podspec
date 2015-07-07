@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MakeItHybrid"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "MakeItHybrid let you create your hybrid application very easily for iOS in Swift language."
   s.description      = <<-DESC
 						MakeItHybrid let you create your hybrid application very easily for iOS in Swift language. It works only iOS 8.0 and above.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "miletliyusuf" => "miletliyusuf@gmail.com" }
-  s.source           = { :git' => "https://github.com/miletliyusuf/MakeItHybrid.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/miletliyusuf/MakeItHybrid.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/ysfmltli'
 
   s.platform     = :ios, '8.0'
